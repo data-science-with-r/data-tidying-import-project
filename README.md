@@ -14,3 +14,53 @@
 >
 > Rubric items can be found at the end of the README in the Self rubric section to help self-assessment of your project. Do not expand the rubric items until you have finished a draft of your project.
 >
+## Before you start
+
+Please complete the following steps before getting started if you have not downloaded and configured Git. If you have already completed these steps from course 1, please skip to the Instructions section.
+
+### Download Git
+
+Note, if you are on Windows or Linux, you will need to install Git.  If you do not have git installed, please do so: 
+
+Windows ->  https://git-scm.com/download/win
+
+Linux   ->  https://git-scm.com/download/linux
+
+### Configure git with RStudio 
+
+In the console, run the following: 
+```r
+install.packages("usethis")
+
+usethis::use_git_config(
+  user.name = "Your name", 
+  user.email = "Email associated with your GitHub account"
+ )
+```
+Please make sure that you replace "YourName" with your actual name, and "Email associated with your GitHub account" with your email used for your GitHub account. 
+
+### Create and authenticate your personal access token 
+
+In the console, run the following to geneate your personal access token (PAT) 
+
+```r
+usethis::create_github_token()
+```
+
+Next, run the following and paste your PAT in:
+
+```r
+gitcreds::gitcreds_set()
+```
+
+### Getting started 
+
+Once you restart R, you will be able to clone this project repository and get working! To clone this project: 
+- Click the green code button on the repo
+- Copy the HTTPS
+- Open a new project in RStudio
+- Click version control and then Git
+- Paste the copied HTTPS in the Repository URL box.
+- Name the project directory
+- Browse and select where this project will be saved
+- Click create project!
