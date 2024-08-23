@@ -70,7 +70,11 @@ Once you restart R, you will be able to clone this project repository and get wo
 This final project consists of an exploratory data analysis and write up
 of results you discover. The data sets you will be working with can be found in the data folder. Your write up, in index.qmd, will explore (at least) two questions.
 
+## Description
+
 **Inflation in the US**
+
+<img align="right" src="images/inflation.png" width="300" height="180" />
 
 The Organisation for Economic Co-operation and Development defines inflation as follows:
 
