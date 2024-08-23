@@ -91,5 +91,16 @@ The data you will need to explore US inflation are spread across two files:
 -   `us-inflation.csv`: Annual inflation rate for the US for 12 CPI divisions. Each division is identified by an ID number.
 -   `cpi-divisions.csv`: A "lookup table" of CPI division ID numbers and their descriptions.
 
+A data table for each dataset can be seen below: 
 
+A data table is below:
+
+`us-inflation`
+
+| variable    | description                                                             |
+|-------------|-------------------------------------------------------------------------|
+| `country`    | location data; all values "United States"|
+| `cpi_division_id`    | numerical value to represent cpi division|
+| `year` | year inflation was recorded|
+| `annual_inflation`  | value of annual inflation in %                                    |
 
