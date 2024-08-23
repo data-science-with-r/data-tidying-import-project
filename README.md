@@ -113,3 +113,8 @@ A data table for each dataset can be seen below:
 
 ## Research Questions 
 
+You are tasked to use these data to produce the following: 
+
+1) Calculate the minimum and maximum annuel inflation percentage for each cpi division and year combination 
+
+2) Recreate a plot of annual inflation vs. year for these divisions. Then, in a few sentences, describe the patterns you observe in the plot, particularly focusing on anything you find surprising or not surprising, based on your knowledge (or lack thereof) of inflation rates in the US over the last decade.
