@@ -16,7 +16,7 @@
 >
 ## Before you start
 
-Please complete the following steps before getting started if you have not downloaded and configured Git. If you have already completed these steps from course 1, please skip to the Instructions section.
+Please complete the following steps before getting started if you have not downloaded and configured Git. If you have already completed these steps from course 1, please clone this repo and skip to the Instructions section.
 
 ### Download Git
 
@@ -64,3 +64,8 @@ Once you restart R, you will be able to clone this project repository and get wo
 - Name the project directory
 - Browse and select where this project will be saved
 - Click create project!
+
+## Instructions
+
+This final project consists of an exploratory data analysis and write up
+of results you discover. The data sets you will be working with can be found in the data folder. Your write up, in index.qmd, will explore (at least) two questions.
