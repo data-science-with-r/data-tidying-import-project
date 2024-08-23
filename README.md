@@ -69,3 +69,23 @@ Once you restart R, you will be able to clone this project repository and get wo
 
 This final project consists of an exploratory data analysis and write up
 of results you discover. The data sets you will be working with can be found in the data folder. Your write up, in index.qmd, will explore (at least) two questions.
+
+**Inflation in the US**
+
+The Organisation for Economic Co-operation and Development defines inflation as follows:
+
+> Inflation is a rise in the general level of prices of goods and services that households acquire for the purpose of consumption in an economy over a period of time.
+>
+> The main measure of inflation is the annual inflation rate which is the movement of the Consumer Price Index (CPI) from one month/period to the same month/period of the previous year expressed as percentage over time.
+>
+> Source: [OECD CPI FAQ](https://www.oecd.org/sdd/prices-ppp/consumerpriceindices-frequentlyaskedquestionsfaqs.htm#1)
+
+CPI is broken down into 12 divisions such as food, housing, health, etc.
+
+The data you will need to explore US inflation are spread across two files:
+
+-   `us-inflation.csv`: Annual inflation rate for the US for 12 CPI divisions. Each division is identified by an ID number.
+-   `cpi-divisions.csv`: A "lookup table" of CPI division ID numbers and their descriptions.
+
+
+
