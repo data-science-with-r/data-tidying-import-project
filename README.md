@@ -89,11 +89,9 @@ CPI is broken down into 12 divisions such as food, housing, health, etc.
 The data you will need to explore US inflation are spread across two files:
 
 -   `us-inflation.csv`: Annual inflation rate for the US for 12 CPI divisions. Each division is identified by an ID number.
--   `cpi-divisions.csv`: A "lookup table" of CPI division ID numbers and their descriptions.
+-   `cpi-divisions.xlsx`: A "lookup table" of CPI division ID numbers and their descriptions.
 
 A data table for each dataset can be seen below: 
-
-A data table is below:
 
 `us-inflation`
 
@@ -103,4 +101,11 @@ A data table is below:
 | `cpi_division_id`    | numerical value to represent cpi division|
 | `year` | year inflation was recorded|
 | `annual_inflation`  | value of annual inflation in %                                    |
+
+`cpi-divisions.xlsx`
+
+| variable    | description                                                             |
+|-------------|-------------------------------------------------------------------------|
+| `id`    | numerical value to represent cpi division|
+| `description`    | description of the cpi value|
 
