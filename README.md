@@ -99,8 +99,10 @@ A data table for each dataset can be seen below:
 |-------------|-------------------------------------------------------------------------|
 | `country`    | location data; all values "United States"|
 | `cpi_division_id`    | numerical value to represent cpi division|
-| `year` | year inflation was recorded|
-| `annual_inflation`  | value of annual inflation in %                                    |
+| `2011` | annual inflation percentage for the year 2011 by cpi division|
+| `2012` | annual inflation percentage for the year 2012 by cpi division|
+| `...` | ...|
+| `2021` | annual inflation percentage for the year 2021 by cpi division|
 
 `cpi-divisions.xlsx`
 
@@ -108,4 +110,6 @@ A data table for each dataset can be seen below:
 |-------------|-------------------------------------------------------------------------|
 | `id`    | numerical value to represent cpi division|
 | `description`    | description of the cpi value|
+
+## Research Questions 
 
