@@ -120,4 +120,4 @@ You are tasked to use these data to produce the following:
 2) Recreate a plot of annual inflation vs. year for these divisions. Then, in a few sentences, describe the patterns you observe in the plot, particularly focusing on anything you find surprising or not surprising, based on your knowledge (or lack thereof) of inflation rates in the US over the last decade.
 
 
-<img align="right" src="images/final-plot.png" width="300" height="180" />
+<img align="center" src="images/final-plot.png"/>
