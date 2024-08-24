@@ -119,6 +119,46 @@ You are tasked to use these data to produce the following:
 
 2) Recreate a plot of annual inflation vs. year for these divisions. Then, in a few sentences, describe the patterns you observe in the plot, particularly focusing on anything you find surprising or not surprising, based on your knowledge (or lack thereof) of inflation rates in the US over the last decade.
 
+   > [!IMPORTANT]
+>
+> ### 
+>
+> <img src="images/github.png" data-fig-align="left" width="25"
+> height="25" /> - **Version control with GitHub** <br> This project
+> also provides you with the opportunity to practice using version
+> control, often expected to be used in a real-world context. We
+> challenge you to **Render**; **Commit**; and **Push** after each
+> visualization or summary statistics you create. If you are working on
+> a project with more than one contributor, make sure that you **Pull**
+> before making any progress to ensure your project matches up with the
+> project repository.
+
+## Displaying code
+
+Depending on the purpose of the project, it may be advantageous to either show or hide all of your code in your rendered document. To hide all of your code, set `echo: false` in your YAML. If you want to display your code, set `echo: true`.   
+ 
+ 
+## Citations 
+
+When working on your project, you may want to include outside sources. When doing so, we need to make sure these sources are properly cited. In order to do so, we need to create a .bib file and specify it in your index.qmd's YAML heading. Your project files include a references.bib txt file. This is where you will put bibtex entries. An example of an entry to be referenced can be seen below: 
+
+```
+@article{Cetinkaya2020,
+	title        = {A Fresh Look at Introductory Data Science},
+	author       = {Cetinkaya, Mine and Ellison, Victoria},
+	year         = 2020,
+	month        = {08},
+	journal      = {Journal of Statistics Education},
+	volume       = 29,
+	pages        = {1--27},
+	doi          = {10.1080/10691898.2020.1804497}
+}
+```
+In this entry above, `Cetinkaya2020` is the citation identifier. The default way to cite an entry in your text is with this syntax: [@citation-identifier].
+
+To automatically generate a references section with your entries, the path to the .bib file needs to be specified in your YAML with bibliography: references.bib. This has been done for you. 
+
+
 <details>
   <summary>RQ2 Hint (Reading in data)</summary>
 The top of the cpi-divisions dataset has a note from the researcher. We don't want to include this in the data set. See https://readxl.tidyverse.org/reference/read_excel.html for how to skip lines when reading in data from excel. Skip the first line. 
@@ -151,3 +191,11 @@ ggplot(...) +
   </details>
   
 <img align="center" src="images/final-plot.png"/>
+
+<details>
+  <summary>Self rubric</summary>
+
+- one
+- two
+
+   </details> 
