@@ -6,7 +6,9 @@
 > [!IMPORTANT]
 >
 > ### 
->
+>This site was built using [GitHub Pages](https://pages.github.com/).
+
+
 > This is the final project for course 2. This will not be graded, and is
 > intended to provide you with the opportunity to test the skills you’ve
 > acquired throughout the course in a less structured environment.
