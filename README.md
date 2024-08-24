@@ -121,7 +121,7 @@ You are tasked to use these data to produce the following:
 
 <details>
   <summary>RQ2 Hint 1</summary>
-The top of the cpi-divisions dataset has a note from the researcher. We don't want to include this in the data set. See [read_excel()](https://readxl.tidyverse.org/reference/read_excel.html) help file on how to skip lines when reading in data from excel. Skip the first line. 
+The top of the cpi-divisions dataset has a note from the researcher. We don't want to include this in the data set. See [read_excel](https://readxl.tidyverse.org/reference/read_excel.html) help file on how to skip lines when reading in data from excel. Skip the first line. 
    
 </details>
 
