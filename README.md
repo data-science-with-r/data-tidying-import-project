@@ -208,3 +208,7 @@ Color scheme
 Categories of cpi division
 
    </details> 
+
+## Challenge
+
+Using these data, come up with a third research question, add it to your written report, and investigate!
