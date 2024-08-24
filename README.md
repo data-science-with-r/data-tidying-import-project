@@ -115,11 +115,11 @@ A data table for each dataset can be seen below:
 
 You are tasked to use these data to produce the following: 
 
-1) Calculate the minimum and maximum annuel inflation percentage for each cpi division and year combination 
+1) Calculate the minimum and maximum annuel inflation percentage for each cpi division. 
 
 2) Recreate a plot of annual inflation vs. year for these divisions. Then, in a few sentences, describe the patterns you observe in the plot, particularly focusing on anything you find surprising or not surprising, based on your knowledge (or lack thereof) of inflation rates in the US over the last decade.
 
-   > [!IMPORTANT]
+> [!IMPORTANT]
 >
 > ### 
 >
@@ -195,7 +195,16 @@ ggplot(...) +
 <details>
   <summary>Self rubric</summary>
 
-- one
-- two
+- Check your calculations:
+For id 1, minimum annual inflation is equal to -1.32; max is equal to 4.80
+For id 2, minimum annual inflation is equal to 1.68; max is equal to 4.46
+etc.
+
+- Self assess the graph you made compared to the graph you are trying to recreate. Take note of details such as:
+Title and subtitle
+Axes labels
+Legend position
+Color scheme
+Categories of cpi division
 
    </details> 
