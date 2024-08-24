@@ -120,23 +120,34 @@ You are tasked to use these data to produce the following:
 2) Recreate a plot of annual inflation vs. year for these divisions. Then, in a few sentences, describe the patterns you observe in the plot, particularly focusing on anything you find surprising or not surprising, based on your knowledge (or lack thereof) of inflation rates in the US over the last decade.
 
 <details>
-  <summary>RQ2 Hint 1</summary>
-The top of the cpi-divisions dataset has a note from the researcher. We don't want to include this in the data set. See [read_excel()](https://pages.github.com/).
-  
-  [read_excel](https://readxl.tidyverse.org/reference/read_excel.html) help file on how to skip lines when reading in data from excel. Skip the first line. 
+  <summary>RQ2 Hint (Reading in data)</summary>
+The top of the cpi-divisions dataset has a note from the researcher. We don't want to include this in the data set. See https://readxl.tidyverse.org/reference/read_excel.html for how to skip lines when reading in data from excel. Skip the first line. 
    
 </details>
 
 <details>
-  <summary>RQ2 Hint 2</summary>
+  <summary>RQ2 Hint (Joining)</summary>
 Start by using your new dataset from question 1 and joining it with the cpi-divisions dataset. Think critically about what variable is the same across both datasets, and use this as the "key".  
 
 </details>
 
 <details>
-  <summary>RQ2 Hint 3</summary>
+  <summary>RQ2 Hint (Subset CPIs)</summary>
 To filter the joined dataset by only the IDs of CPI divisions in the final plot, create a vector using `c`. Then filter your joined data set by using the `filter()` function and the `%in%` operator. 
-
   </details>
 
+<details>
+  <summary>RQ2 Hint (Legend)</summary>
+If your legend has labels that are too long, you can try moving the legend to the bottom and stack the labels vertically. Hint: The legend.position and legend.direction arguments of the theme() functions will be useful.
+
+  ```
+ggplot(...) +
+  ... +
+  theme(
+    legend.position = "bottom", 
+    legend.direction = "vertical"
+  )
+  ```
+  </details>
+  
 <img align="center" src="images/final-plot.png"/>
