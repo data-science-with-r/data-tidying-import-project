@@ -10,9 +10,11 @@
 > This is the final project for course 2: data tidying and importing. This will not be graded, and is
 > intended to provide you with the opportunity to test the skills you’ve
 > acquired throughout the course in a less structured environment.
-> This project is also structured for you to host on a webpage and link as proof of work on your resume or CV. 
+> This project is also structured for you to host on a webpage and link as proof of work on your resume or CV.
 >
-> Rubric items can be found at the end of the README in the Self rubric section to help self-assessment of your project. Do not expand the rubric items until you have finished a draft of your project.
+> Hints to answer the second research question can be found Hints section. You are challanged not to use these hints unless needed.
+>
+> A short Self Rubric can be found at the end of the README to help self-assessment of your project. Do not expand the rubric items until you have finished a draft of your project.
 >
 ## Before you start
 
@@ -119,6 +121,8 @@ You are tasked to use these data to produce the following:
 
 2) Recreate a plot of annual inflation vs. year for these divisions. Then, in a few sentences, describe the patterns you observe in the plot, particularly focusing on anything you find surprising or not surprising, based on your knowledge (or lack thereof) of inflation rates in the US over the last decade.
 
+   <img align="center" src="images/final-plot.png"/>
+
 > [!IMPORTANT]
 >
 > ### 
@@ -159,6 +163,8 @@ In this entry above, `Cetinkaya2020` is the citation identifier. The default way
 To automatically generate a references section with your entries, the path to the .bib file needs to be specified in your YAML with bibliography: references.bib. This has been done for you. 
 
 
+## Hints
+
 <details>
   <summary>RQ2 Hint (Reading in data)</summary>
 The top of the cpi-divisions dataset has a note from the researcher. We don't want to include this in the data set. See https://readxl.tidyverse.org/reference/read_excel.html for how to skip lines when reading in data from excel. Skip the first line. 
@@ -189,8 +195,7 @@ ggplot(...) +
   )
   ```
   </details>
-  
-<img align="center" src="images/final-plot.png"/>
+
 
 <details>
   <summary>Self rubric</summary>
