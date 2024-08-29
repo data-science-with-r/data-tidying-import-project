@@ -7,7 +7,7 @@
 >
 > ### 
 
-> This is the final project for course 2. This will not be graded, and is
+> This is the final project for course 2: data tidying and importing. This will not be graded, and is
 > intended to provide you with the opportunity to test the skills you’ve
 > acquired throughout the course in a less structured environment.
 > This project is also structured for you to host on a webpage and link as proof of work on your resume or CV. 
