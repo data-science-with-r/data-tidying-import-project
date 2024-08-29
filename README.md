@@ -12,7 +12,7 @@
 > acquired throughout the course in a less structured environment.
 > This project is also structured for you to host on a webpage and link as proof of work on your resume or CV.
 >
-> Hints to answer the second research question can be found Hints section. You are challanged not to use these hints unless needed.
+> Hints to answer the research questions can be found Hints section. You are challanged not to use these hints unless needed.
 >
 > A short Self Rubric can be found at the end of the README to help self-assessment of your project. Do not expand the rubric items until you have finished a draft of your project.
 >
@@ -164,6 +164,11 @@ To automatically generate a references section with your entries, the path to th
 
 
 ## Hints
+
+<details>
+  <summary>RQ1 Hint (Calculation)</summary>
+The way the data are currently set up, it is very difficult to operate row wise and answer the research question. We can use what we've learned about pivoting data to get these data in a more workable format!   
+</details>
 
 <details>
   <summary>RQ2 Hint (Reading in data)</summary>
