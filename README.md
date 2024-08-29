@@ -14,7 +14,7 @@
 >
 > Hints to answer the research questions can be found Hints section. You are challanged not to use these hints unless needed.
 >
-> A short Self Rubric can be found at the end of the README to help self-assessment of your project. Do not expand the rubric items until you have finished a draft of your project.
+> A short self rubric can be found at the end of the README in the Rubric section to help the self-assessment of your project. Do not expand the rubric items until you have finished a draft of your project.
 >
 ## Before you start
 
@@ -201,6 +201,7 @@ ggplot(...) +
   ```
   </details>
 
+## Rubric
 
 <details>
   <summary>Self rubric</summary>
